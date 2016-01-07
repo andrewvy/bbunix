@@ -1,0 +1,77 @@
+/_build
+/deps
+erl_crash.dump
+*.ez
+.DS_Store
+.redcar
+iron.json
+
+# Sensitive information
+config/sphinx.yml
+config/database.yml
+db_backup/
+*.dump
+.env
+config/ec2.yml
+config/environment.rb
+
+log/spec/deprecations.log
+
+.idea/
+
+# oops i saved a project file in stylesheets
+app/stylesheets/*.sublime*
+
+.sass-cache/
+
+# Temporary files
+log/*.log
+npm-debug.log
+/tmp/
+
+# mongo?
+logfile
+public/uploads/
+
+# Postgres upgrade crap
+pg_*.log
+analyze_new_cluster.sh
+delete_old_cluster.sh
+
+# Sphinx
+log/*.pid
+config/*.sphinx.conf
+db/sphinx/
+
+# redis
+nohup.txt
+nohup.out
+dump.rdb
+temp-*.rdb
+.settings.xml
+.rvmrc
+
+# Gems
+bundler/
+cache/
+gems/
+specifications/
+.bundle/
+/vendor/bundle
+/bundle
+
+# Deprecation Logs
+log/spec/*
+log/spec/deprecations.log
+
+# Vim
+*.swp
+*.swp
+.*.swp
+.*.swo
+
+/node_modules/
+vendor/assets/bower_components/
+
+.temp/
+
